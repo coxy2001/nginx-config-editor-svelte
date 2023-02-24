@@ -1,0 +1,2 @@
+export const API_URL = 'https://example.com'
+export const AUTH = 'Basic YWRtaW46YWRtaW4='

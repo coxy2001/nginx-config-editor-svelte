@@ -1,0 +1,10 @@
+.text-editor {
+    &__buttons-right {
+        float: right;
+    }
+
+    textarea {
+        height: 600px;
+        resize: vertical;
+    }
+}

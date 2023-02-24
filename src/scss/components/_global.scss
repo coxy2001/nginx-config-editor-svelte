@@ -1,0 +1,25 @@
+$primary: #0e85ed;
+$success: #00ad00;
+$danger: #ad0000;
+
+$sm: 567px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 1rem;
+}
+
+code,
+textarea {
+    font-family: source-code-pro, "Courier New", monospace;
+}

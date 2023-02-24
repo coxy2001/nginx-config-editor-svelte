@@ -1,0 +1,29 @@
+.proxy-editor {
+    &__input-row {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: -0.5rem;
+        margin-right: -0.5rem;
+    }
+
+    &__input-group {
+        width: 100%;
+        max-width: 50%;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+
+    &__buttons {
+        padding-top: 0.5rem;
+    }
+
+    label {
+        display: inline-block;
+        padding-bottom: 0.5rem;
+    }
+
+    input {
+        width: 100%;
+    }
+}

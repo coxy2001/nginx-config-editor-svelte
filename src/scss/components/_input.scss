@@ -1,0 +1,32 @@
+%input {
+    display: inline;
+    width: 100%;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: 1px solid #000;
+    border-radius: 0.25rem;
+
+    @media (min-width: $sm) {
+        width: auto;
+        margin-bottom: 0;
+        margin-right: 0.5rem;
+    }
+}
+
+input,
+select {
+    @extend %input;
+}
+
+form {
+    margin-bottom: 1rem;
+}
+
+textarea {
+    width: 100%;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+    border: 1px solid #000;
+    border-radius: 0.25rem;
+}
